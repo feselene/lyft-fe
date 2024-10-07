@@ -26,6 +26,11 @@ dependencies {
 
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation("androidx.compose.material:material:1.7.3")
+    implementation("androidx.compose.material:material-icons-core:1.7.3")
+    implementation("androidx.compose.material3:material3:1.3.0")
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
