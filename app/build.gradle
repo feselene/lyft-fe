@@ -1,0 +1,19 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    // Your Android configurations here
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation "androidx.compose.material:material:1.4.0"
+    implementation "androidx.compose.material3:material3:1.1.0"
+    // Add other dependencies here
+}
