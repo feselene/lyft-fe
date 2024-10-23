@@ -1,3 +1,11 @@
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation("org.hibernate:hibernate-core:3.6.7.Final")
+}
+
 plugins {
     `java-library`
 }
